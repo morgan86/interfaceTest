@@ -1,0 +1,287 @@
+2018-06-20 11:26:16,058 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\Logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\test_case.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'SyntaxError' object has no attribute 'json'
+2018-06-20 11:26:16,066 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\Logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\test_case.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'MissingSchema' object has no attribute 'json'
+2018-06-20 11:27:35,552 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\Logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\test_case.py", line 27, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.3", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.3", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+2018-06-20 13:22:29,892 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\Logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\test_case.py", line 27, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.3", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.3", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+2018-06-20 13:23:03,405 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\Logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\test_case.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'SyntaxError' object has no attribute 'json'
+2018-06-20 13:23:03,412 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\Logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\test_case.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'MissingSchema' object has no attribute 'json'
+2018-06-20 13:23:34,994 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\Logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\test_case.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'SyntaxError' object has no attribute 'json'
+2018-06-20 13:23:35,008 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\Logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\test_case.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'MissingSchema' object has no attribute 'json'
+2018-06-20 13:32:48,351 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'SyntaxError' object has no attribute 'json'
+2018-06-20 13:32:48,366 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 64, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'MissingSchema' object has no attribute 'json'
+2018-06-21 10:45:42,269 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'SyntaxError' object has no attribute 'json'
+2018-06-21 10:45:42,290 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 25, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'MissingSchema' object has no attribute 'json'
+2018-06-21 11:06:29,250 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.3\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.5", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 27, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.3\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"} != {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+2018-06-21 11:06:29,917 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.3\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[176 chars]"4.7.5", "x-forwarded-port": "80", "x-forwarde[61 chars]23"}' != '{"ar[176 chars]"4.7.3", "x-forwarded-port": "80", "x-forwarde[61 chars]23"}'
+Diff is 971 characters long. Set self.maxDiff to None to see it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 27, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.3\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"} != {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.3", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
+2018-06-21 11:07:34,065 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.3\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.5", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 27, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.3\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"} != {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+2018-06-21 11:08:39,147 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 27, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.5", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+2018-06-21 11:19:48,699 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.3\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.5", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 29, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Program Files\JetBrains\PyCharm 2018.1.3\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"} != {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+2018-06-21 11:20:00,292 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 29, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.5", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+2018-06-21 11:46:52,572 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 29, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.5", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+2018-06-21 11:46:53,097 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 27, in test_api
+    acturl_result = json.dumps(response.json())
+AttributeError: 'SyntaxError' object has no attribute 'json'
+2018-06-21 11:47:36,768 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 29, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.5", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
+2018-06-21 15:37:05,897 - example_logger - ERROR - There was an exception in function: test_api
+Traceback (most recent call last):
+  File "D:\PycharmProjects\interfaceTest\common\logit.py", line 38, in wrapper
+    return func(*args, **kwargs)
+  File "D:\PycharmProjects\interfaceTest\testcase.py", line 29, in test_api
+    self.assertEqual(acturl_result, expect_result)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Programs\Python\Python36-32\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"ar[153 chars], "x-lantern-version": "4.7.5", "x-forwarded-p[84 chars]23"}' != '{"ar[153 chars], "x-forwarded-port": "443", "x-forwarded-prot[56 chars]23"}'
+- {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-lantern-version": "4.7.5", "x-forwarded-port": "80", "x-forwarded-proto": "http"}, "url": "http://postman-echo.com/get?test=123"}
++ {"args": {"test": "123"}, "headers": {"host": "postman-echo.com", "accept": "*/*", "accept-encoding": "gzip, deflate", "user-agent": "python-requests/2.18.4", "x-forwarded-port": "443", "x-forwarded-proto": "https"}, "url": "http://postman-echo.com/get?test=123"}
+
